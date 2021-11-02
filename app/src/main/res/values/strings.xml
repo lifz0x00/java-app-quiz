@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">Quiz M Alif Kurniawan</string>
+    <string name="name">Masukan nama kamu dibawah ini</string>
+    <string name="nameofuser">Nama</string>
+    <string name="askforquiz">Mochammad Alif Kurniawan 173112700650039</string>
+    <string name="ankara">Ankara</string>
+    <string name="istanbul">Istanbul</string>
+    <string name="quest1">1) Negara mana yang paling terkecil didunia?</string>
+    <string name="Singapore">Singapore</string>
+    <string name="Nauru">Nauru</string>
+    <string name="SanMarino">San Marino</string>
+    <string name="Monaco">Monaco</string>
+    <string name="quest2">2) Planet mana yang memiliki suhu terpanas?</string>
+    <string name="Submit">Submit</string>
+    <string name="Mercury">Mercury</string>
+    <string name="Mars">Mars</string>
+    <string name="Venus">Venus</string>
+    <string name="Jupiter">Jupiter</string>
+    <string name="quest3">3) Semua variabel yang dideklarasikan didalam interface secara implicitly?</string>
+    <string name="publicValue">public</string>
+    <string name="staticValue">static</string>
+    <string name="privateValue">private</string>
+    <string name="finalValue">final</string>
+    <string name="quest4">4) Temperatur apa yang sama di Celsius dan Fahrenheit?</string>
+    <string name="zero">0</string>
+    <string name="OneHundred">+100</string>
+    <string name="PlusFourty">+40</string>
+    <string name="MinusFourty">-40</string>
+    <string name="quest5">5) Negara mana yang bukan salah satu anggota pendiri Uni Eropa?</string>
+    <string name="Britin">Great Britain</string>
+    <string name="France">France</string>
+    <string name="German">German</string>
+    <string name="answer_to_all_please">Tolong jawab semua pertanyaan!</string>
+</resources>

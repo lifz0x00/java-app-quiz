@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="8dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/name" />
+
+        <EditText
+            android:id="@+id/Name_Edit_Text"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="@string/nameofuser"
+            android:inputType="textCapWords" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="10dp"
+            android:text="@string/askforquiz" />
+
+        <!-- The First Question -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="@color/colorPrimary"
+            android:padding="5dp"
+            android:text="@string/quest1"
+            android:textColor="@color/text_color"
+            android:textStyle="bold" />
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            app:cardBackgroundColor="#eeeeee"
+            app:cardCornerRadius="6dp"
+            app:cardElevation="4dp"
+            app:contentPadding="8dp">
+
+
+            <RadioGroup
+                android:id="@+id/radio_group_second_question"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RadioButton
+                    android:id="@+id/radioButton21"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/Singapore" />
+
+                <RadioButton
+                    android:id="@+id/radioButton22"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/Nauru" />
+
+                <RadioButton
+                    android:id="@+id/radioButton23"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/SanMarino" />
+
+                <RadioButton
+                    android:id="@+id/radioButtonSecondQuestion"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/Monaco" />
+            </RadioGroup>
+
+        </android.support.v7.widget.CardView>
+
+        <!-- The Second Question -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="@color/colorPrimary"
+            android:padding="5dp"
+            android:text="@string/quest2"
+            android:textColor="@color/text_color"
+            android:textStyle="bold" />
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            app:cardBackgroundColor="#eeeeee"
+            app:cardCornerRadius="6dp"
+            app:cardElevation="4dp"
+            app:contentPadding="8dp">
+
+
+            <RadioGroup
+                android:id="@+id/radio_group_third_question"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RadioButton
+                    android:id="@+id/radioButton31"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/Mercury" />
+
+                <RadioButton
+                    android:id="@+id/radioButtonThirdQuestion"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/Venus" />
+
+                <RadioButton
+                    android:id="@+id/radioButton32"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/Mars" />
+
+                <RadioButton
+                    android:id="@+id/radioButton33"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/Jupiter" />
+            </RadioGroup>
+
+        </android.support.v7.widget.CardView>
+
+        <!-- Third Question -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="@color/colorPrimary"
+            android:padding="5dp"
+            android:text="@string/quest3"
+            android:textColor="@color/text_color"
+            android:textStyle="bold" />
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            app:cardBackgroundColor="#eeeeee"
+            app:cardCornerRadius="6dp"
+            app:cardElevation="4dp"
+            app:contentPadding="8dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <CheckBox
+                    android:id="@+id/checkBox1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/publicValue" />
+
+                <CheckBox
+                    android:id="@+id/checkBox2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/staticValue" />
+
+                <CheckBox
+                    android:id="@+id/checkBox41"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/privateValue" />
+
+                <CheckBox
+                    android:id="@+id/checkBox4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/finalValue" />
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+
+        <!-- Fourth Question -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="@color/colorPrimary"
+            android:padding="5dp"
+            android:text="@string/quest4"
+            android:textColor="@color/text_color"
+            android:textStyle="bold" />
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            app:cardBackgroundColor="#eeeeee"
+            app:cardCornerRadius="6dp"
+            app:cardElevation="4dp"
+            app:contentPadding="8dp">
+
+
+            <RadioGroup
+                android:id="@+id/radio_group_fifth_question"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RadioButton
+                    android:id="@+id/radioButton51"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/zero" />
+
+                <RadioButton
+                    android:id="@+id/radioButton52"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/OneHundred" />
+
+                <RadioButton
+                    android:id="@+id/radioButton53"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/PlusFourty" />
+
+                <RadioButton
+                    android:id="@+id/radioButtonFifthQuestion"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/MinusFourty" />
+            </RadioGroup>
+
+        </android.support.v7.widget.CardView>
+
+        <!-- The Fifth Question -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="@color/colorPrimary"
+            android:padding="5dp"
+            android:text="@string/quest5"
+            android:textColor="@color/text_color"
+            android:textStyle="bold" />
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            app:cardBackgroundColor="#eeeeee"
+            app:cardCornerRadius="6dp"
+            app:cardElevation="4dp"
+            app:contentPadding="8dp">
+
+
+            <RadioGroup
+                android:id="@+id/radio_group_sixth_question"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RadioButton
+                    android:id="@+id/radioButtonSixthQuestion"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/Britin" />
+
+                <RadioButton
+                    android:id="@+id/radioButton61"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/France" />
+
+                <RadioButton
+                    android:id="@+id/radioButton62"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/German" />
+            </RadioGroup>
+
+        </android.support.v7.widget.CardView>
+
+
+        <Button
+            android:id="@+id/button_id"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:background="@color/colorPrimary"
+            android:text="@string/Submit"
+            android:textColor="@color/text_color" />
+
+    </LinearLayout>
+
+
+</ScrollView>
